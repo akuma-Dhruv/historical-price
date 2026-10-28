@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: historical-market-data
+Version: 0.1.0
+Summary: Angel One historical candle ingestion for backtesting
+Requires-Python: >=3.10
+Requires-Dist: smartapi-python==1.5.5
+Requires-Dist: logzero<2,>=1.7
+Requires-Dist: websocket-client<2,>=1.8
+Requires-Dist: pyotp<3,>=2.9
+Requires-Dist: python-dotenv<2,>=1.0
+Requires-Dist: psycopg[binary]<4,>=3.2
+Requires-Dist: typer<1,>=0.12
+Provides-Extra: test
+Requires-Dist: pytest<9,>=8; extra == "test"

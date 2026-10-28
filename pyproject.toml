@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "historical-market-data"
+version = "0.1.0"
+description = "Angel One historical candle ingestion for backtesting"
+requires-python = ">=3.10"
+dependencies = [
+  "smartapi-python==1.5.5",
+  "logzero>=1.7,<2",
+  "websocket-client>=1.8,<2",
+  "pyotp>=2.9,<3",
+  "python-dotenv>=1.0,<2",
+  "psycopg[binary]>=3.2,<4",
+  "typer>=0.12,<1",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9"]
+
+[project.scripts]
+historical-data = "historical_data.cli:app"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

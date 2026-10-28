@@ -1,0 +1,2 @@
+[console_scripts]
+historical-data = historical_data.cli:app

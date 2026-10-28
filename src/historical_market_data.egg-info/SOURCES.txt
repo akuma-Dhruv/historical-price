@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+src/historical_data/__init__.py
+src/historical_data/angel.py
+src/historical_data/cli.py
+src/historical_data/config.py
+src/historical_data/db.py
+src/historical_market_data.egg-info/PKG-INFO
+src/historical_market_data.egg-info/SOURCES.txt
+src/historical_market_data.egg-info/dependency_links.txt
+src/historical_market_data.egg-info/entry_points.txt
+src/historical_market_data.egg-info/requires.txt
+src/historical_market_data.egg-info/top_level.txt
+tests/test_angel.py
